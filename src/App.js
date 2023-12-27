@@ -5,6 +5,7 @@ import SearchField from './components/SearchField';
 import Images from './components/Images';
 import  useAxios  from './hooks/useAxios';
 import { createContext, useState } from 'react';
+import Footer from './components/Footer';
 
 //create context
 
@@ -27,6 +28,7 @@ const value={
         <SearchField/>
       </Jumbutron>
         <Images/>
+        <Footer></Footer>
     </ImageContext.Provider>
 
   );
