@@ -8,7 +8,6 @@ import { ImageContext } from "../App";
 
   const handleOnChange=(e)=>{
     setSearchValue(e.target.value)
-    fetchData (`search/photos?page=1&query=${SearchValue}&client_id=${process.env.REACT_APP_ACCESS_KEY}`)
   }
   const handleOnClick=()=>{
     fetchData (`search/photos?page=1&query=${SearchValue}&client_id=${process.env.REACT_APP_ACCESS_KEY}`)
